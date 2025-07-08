@@ -1,0 +1,13 @@
+python main.py --symbol SOL --days 730
+
+python main_lstm_inr.py --symbol ETH
+
+python main_lstm_inr.py --symbol SOL --sequence-length 30
+
+
+python crypto_agent.py --symbol GNO --days 90 --capital 1000
+python crypto_agent.py --symbol [BTC,XAUT,MORPHO,AERO,SUN,RVN,RVR,MEMEFI,YFI,PAXG,BNB,BCH,AAVE,SOL,GNO,LTC,COMP,HYPE,FARM,TRB,ETC,METIS,GMX,EGLD,LINK,ING,TRUMP,DOGE,ORDI] --capital 1000 --days 1000 --sequence-length 30
+
+ python main_lstm_inr.py --symbol SUN --days 60 --sequence-length 30
+ 
+ python crypto_agent.py --symbols [METIS] --capital 1000 --days 365
