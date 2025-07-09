@@ -11,3 +11,6 @@ python crypto_agent.py --symbol [BTC,XAUT,MORPHO,AERO,SUN,RVN,RVR,MEMEFI,YFI,PAX
  python main_lstm_inr.py --symbol SUN --days 60 --sequence-length 30
  
  python crypto_agent.py --symbols [METIS] --capital 1000 --days 365
+
+
+ python crypto_agent.py --symbols [BAKE] --capital 100 --days 365
